@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>JakShopping</display-name>
+  <servlet>
+    <servlet-name>prodController</servlet-name>
+    <servlet-class>controller.ProductController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>prodController</servlet-name>
+    <url-pattern>/prodController</url-pattern>
+  </servlet-mapping>
+   <servlet>
+    <servlet-name>navController</servlet-name>
+    <servlet-class>controller.NavController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>navController</servlet-name>
+    <url-pattern>/navController</url-pattern>
+  </servlet-mapping>
+   <servlet>
+    <servlet-name>authController</servlet-name>
+    <servlet-class>controller.AuthController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>authController</servlet-name>
+    <url-pattern>/authController</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>jsp/home.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
