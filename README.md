@@ -1,2 +1,5 @@
  It is a Online shopping website designed usind java.
-All the required files are in the JAKProj folder.
+ Sql file is included to store data in database.
+ here the database is MYSQL.
+ JavaScript and Jquery is used to design the view.
+All the files need to run the poject are enclosed in the JAKproject directory.
